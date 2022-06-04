@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px){
+.keyart-mobile {
+	display: none;
+}
+.keyart_layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.containerbg1 .react-parallax-background-children{ 
+	min-width: 100%;
+	max-width: none;
+}
+.containerbg1 .react-parallax-background-children img{ 
+	min-width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	max-width: none;
+	opacity: 1;
+}
+.containerbg2 .react-parallax-background-children{ 
+	min-width: 100%;
+	max-width: none;
+}
+.containerbg2 .react-parallax-background-children img{ 
+	min-width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	max-width: none;
+}
+
+.containerbg3 .react-parallax-background-children{ 
+	min-width: 100%;
+	max-width: none;
+
+}
+.containerbg3 .react-parallax-background-children img{ 
+	min-width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	max-width: none;
+
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px){
+	.keyart-mobile {
+		background-image: url(../../assets/bannermobile.png);
+		background-size: cover;
+		background-position: 50% 50%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+	}
+	.keyart{
+		display: none;
+	}
+}

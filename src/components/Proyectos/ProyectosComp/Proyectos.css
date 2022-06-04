@@ -1,0 +1,204 @@
+#proyectosComp, .bgColorLogos {
+    background-color: #2A2B2A;
+}
+
+.containerSlide-proyectos{
+    background-color: #E1DDD7;
+
+    padding-top: 25px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+    overflow: visible;
+    border-radius:25px; 
+    display: flex;
+    justify-content: center;
+}
+
+#proyectosComp .proyectos-Container {
+    width: 90%;
+}
+
+#proyectosComp .bgProyecto {  
+    padding: 25px 25px 25px 25px;
+}
+
+
+#proyectosComp .proyectos-Container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-auto-rows: 250px; */
+}
+
+#proyectosComp .bgProyecto .proyectoImage {
+    background-color: #653030;
+    padding: 0 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    min-width: 100px;
+    max-width: 310px;
+    border-radius:25px ;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.299);   
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+#proyectosComp .bgProyecto .proyectoImage .proyectoImage-Img {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    top:-25px;
+    right: -25px;
+    border: #ffffff solid 3px;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.299);
+    overflow: hidden;
+}
+
+#proyectosComp .bgProyecto .proyectoImage:hover {
+    transform: scale(1.1);    
+}
+
+#proyectosComp .bgProyecto .proyectoImage-hover{
+    background-color: #2A2B2A;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top:-25px;
+    right: -25px;
+    flex-direction: column;
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#proyectosComp .bgProyecto .proyectoImage-hover p{
+    color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+#proyectosComp .bgProyecto .proyectoImage-hover h2{
+    width: 85%;
+    font-size: 24px;
+    font-weight: 600;
+     margin-bottom: 100px;
+     transition: all 0.7s ease-in-out;
+}
+
+#proyectosComp .bgProyecto .proyectoImage:hover .proyectoImage-hover h2{
+    margin-bottom: 2px;
+}
+
+#proyectosComp .bgProyecto .proyectoImage:hover > .proyectoImage-hover:hover{
+    opacity: 0.85;
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    #proyectosComp .proyectos-Container {
+
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-auto-rows: 250px; */
+    }
+}
+@media screen and (min-width: 1024px) {
+    #proyectosComp, .bgColorLogos {
+        background-color: #2A2B2A;
+    }
+    
+    .containerSlide-proyectos{
+        background-color: #E1DDD7;
+        margin-top: 50px;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+        overflow: visible;
+        border-radius:25px; 
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    
+    #proyectosComp .proyectos-Container {
+        width: 90%;
+    }
+    
+    #proyectosComp .bgProyecto {  
+        padding: 0 25px 25px 25px;
+    }
+    
+    
+    #proyectosComp .proyectos-Container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-auto-rows: 250px; */
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage {
+        background-color: #653030;
+        padding: 0 0px 0px 0px;
+        position: relative;
+        top: 0px;
+        min-width: 100px;
+        max-width: 310px;
+        border-radius:25px ;
+        box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.299);   
+        cursor: pointer; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage .proyectoImage-Img {
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        top:-25px;
+        right: -25px;
+        border: #ffffff solid 3px;
+        box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.299);
+        overflow: hidden;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage:hover {
+        transform: scale(1.1);    
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage-hover{
+        background-color: #2A2B2A;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        top:-25px;
+        right: -25px;
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage-hover p{
+        color: rgb(255, 255, 255);
+        width: 90%;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage-hover h2{
+        width: 85%;
+        font-size: 24px;
+        font-weight: 600;
+         margin-bottom: 100px;
+         transition: all 0.7s ease-in-out;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage:hover .proyectoImage-hover h2{
+        margin-bottom: 2px;
+    }
+    
+    #proyectosComp .bgProyecto .proyectoImage:hover > .proyectoImage-hover:hover{
+        opacity: 0.85;
+    }
+    
+
+}
+

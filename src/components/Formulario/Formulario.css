@@ -1,0 +1,158 @@
+
+    .containerDesktopForm {
+        display: none;
+    }
+    .containerMobileForm {
+        background-image: url('../../assets/form/bgForm.jpg');
+        height: 950px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+@media screen and (min-width: 768px){
+        .containerMobileForm {
+            display: none;
+        }
+        .containerDesktopForm {
+            display: block;
+            height: 950px;
+        }
+        .bg___parralax{
+            height: 100%;
+        
+        }
+        .bg___parralax .react-parallax-background-children{ 
+     
+            max-width: none;
+            align-items: center;
+            justify-content: center;
+            min-width: 1020px;
+            width: 100%;
+            background-size: cover;
+        }
+        .bg___parralax .react-parallax-background-children .bgParralaxForm{ 
+                background-size: cover;
+    
+                min-width: 1020px;
+                margin: 0 auto;
+                position: relative;
+                bottom:-25px;
+        }
+    
+        .bg___parralax .react-parallax-background-children .bgParralaxForm img { 
+    
+            object-fit: cover;
+            background-size: cover;
+            opacity: 1;
+            bottom: 0;
+            min-width: 1120px;
+            width: 100%;
+    
+    
+    
+        }  
+    
+    
+    
+    }
+    
+
+@media screen and (min-width: 1024px){
+    .containerMobileForm {
+        display: none;
+    }
+    .containerDesktopForm {
+        display: block;
+        height: 1080px;
+    }
+    .bg___parralax{
+        height: 100%;
+    
+    }
+    .bg___parralax .react-parallax-background-children{ 
+ 
+        max-width: none;
+        align-items: center;
+        justify-content: center;
+        min-width: 1020px;
+        width: 100%;
+        background-size: cover;
+    }
+    .bg___parralax .react-parallax-background-children .bgParralaxForm{ 
+            background-size: cover;
+
+            min-width: 1020px;
+            margin: 0 auto;
+            position: relative;
+            bottom:-25px;
+    }
+
+    .bg___parralax .react-parallax-background-children .bgParralaxForm img { 
+
+        object-fit: cover;
+        background-size: cover;
+        opacity: 1;
+        bottom: 0;
+        min-width: 1120px;
+        width: 100%;
+
+
+
+    }  
+
+
+
+}
+
+@media screen and (min-width: 1280px){
+    .bg___parralax .react-parallax-background-children .bgParralaxForm{ 
+        background-size: cover;
+
+        min-width: 1020px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 100px;
+} 
+.bg___parralax .react-parallax-background-children .bgParralaxForm img { 
+
+    object-fit: cover;
+    background-size: cover;
+    opacity: 1;
+    bottom: 0;
+
+    width: 100%;
+
+
+
+}  
+
+}
+
+@media screen and (min-width: 1536px){
+    .bg___parralax .react-parallax-background-children .bgParralaxForm{ 
+        background-size: cover;
+        min-width: 1020px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 200px;
+} 
+.bg___parralax .react-parallax-background-children .bgParralaxForm img { 
+
+    object-fit: cover;
+    background-size: cover;
+    opacity: 1;
+    bottom: 0;
+
+    width: 100%;
+
+
+
+}  
+
+}
+
+

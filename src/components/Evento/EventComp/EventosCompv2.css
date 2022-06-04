@@ -1,0 +1,346 @@
+
+    #eventos .bgColor{
+      background-color: #2A2B2A;
+      position: relative;
+      padding-bottom: 25px;
+      left: 25px;
+
+    }
+
+    #eventos .bgColorSlide{
+      position: relative;
+       background-color: #CFCFCF; 
+       border-radius: 15px;
+       margin: 0;
+       padding: 0;
+       left: -25px;
+       margin-right: 0px;
+       box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+     }
+     #eventos .Left h2 {
+  
+      color:#A3423C;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.5rem;
+    }
+    #eventos .bgColorSlideSwipper h2 {
+  
+      color:#A3423C;
+      font-weight: 400;
+      font-size: 24px;
+      letter-spacing: 0.5rem;
+    }
+  
+    #eventos .Left h1 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height : 32px;
+      padding-bottom: 12px;
+      padding-top: 12px;
+    }
+
+    #eventos .Left .Left-container{
+      width: 100%;
+      display: flex ;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+  .Left-contentImage{
+    display: none;
+
+}
+#eventos .Left{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  position:relative;
+
+}
+#eventos .bgColorSlide .right{
+  
+  width: 95%;
+  display: flex;
+
+  margin: 0 auto 25px;
+
+   /* border: 5px solid #ffffff; */
+   box-shadow: -2px 3px 6px rgba(0, 0, 0, 0.167);
+ }
+
+ #eventos .bgColorSlide .right img{
+  width: 100%;
+  object-fit: cover;
+}
+#eventos .bgColorSlideSwipper{
+  position: relative;
+  background-color: #CFCFCF; 
+  border-radius: 25px;
+  margin: 0 0 20px;
+  padding: 0;
+  right: -25px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+}
+#eventos .bgColorSwipper{
+  margin-top: 52px;
+  background-color: #41504D;
+  position: relative;
+
+  padding-bottom: 10px;
+  right: 25px;
+  /* margin-left: 50px; */
+}
+#eventos .bgColorSlideSwipper .swiper{
+  width: 90%;
+} 
+
+.containerSwiperTablet{
+  display: none;
+}
+.containerSwiperDesktop{
+  display: none;
+}
+.containerSwiperMobile{
+
+  padding-bottom: 25px;
+}
+
+  /* RESPONSIVE DESIGN */
+  @media screen and (min-width: 640px) {
+
+  }
+ 
+  @media screen and (min-width: 768px) {
+    .containerSwiperMobile{
+      display: none;
+    }
+    .containerSwiperTablet{
+      padding-bottom: 4px;
+       display: block;
+    }
+    .containerSwiperDesktop{
+      display: none;
+    }
+    #eventos .bgColorSlideSwipper{
+      border-radius: 25px;
+      right: -25px;
+    }
+    #eventos .bgColorSwipper{
+      margin-top: 75px;
+      position: relative;
+      border-radius: 25px;
+      padding-bottom: 25px;
+      right: 25px;
+      margin-left: 25px;
+    }
+    #eventos .bgColorSwipper .swiper{
+      width: 95%;
+      margin-bottom: 50px;
+    } 
+
+    
+    #eventos .bgColor{
+      position: relative;
+      border-radius: 25px;
+      padding-bottom: 50px;
+      left: 50px;
+      margin-right: 50px;
+    }
+  
+
+  
+    #eventos .bgColorSlide{
+     position: relative;
+      background-color: #CFCFCF; 
+      border-radius: 25px;
+      margin: 0;
+      padding: 0;
+      left: -50px;
+      box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+    }
+
+    #eventos .Left{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px 0 20px;
+      position:relative;
+    }
+    
+   #eventos .Left .Left-container{
+      width: 90%;
+      display: flex ;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+  
+    #eventos .Left .Left-contentText{
+        width: 85%;
+    }
+   
+    #eventos .bgColorSlide .right{
+  
+      width: 100%;
+       margin: 2px 25px 0 15px;
+       /* border: 5px solid #ffffff; */
+       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.167);
+     }
+  
+     #eventos .bgColorSlide .right img{
+      width: 100%;
+      box-shadow: -2px 3px 6px rgba(0, 0, 0, 0.167);
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .containerSwiperDesktop{
+      display: block;
+
+      padding-bottom: 4px;
+    }
+    .containerSwiperTablet{
+      display: none;
+    }
+    #eventos .bgColor{
+      background-color: #2A2B2A;
+      position: relative;
+      border-radius: 25px;
+      padding-bottom: 100px;
+      left: 50px;
+      margin-right: 50px;
+    }
+ 
+    #eventos .bgColorSlide{
+     position: relative;
+      background-color: #CFCFCF; 
+      border-radius: 25px;
+      margin: 0;
+      padding: 0;
+      left: -50px;
+      box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+    }
+
+    #eventos .Left{
+      width: 85%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px 0 20px;
+      position:relative;
+    }
+
+    .Left-contentImage{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: absolute;
+        left: -50px;
+        height: 85%;
+        opacity: 0.75;
+    }
+   .Left-contentImage img{
+      height: 100%;
+  }
+    #eventos .Left .Left-container{
+      width: 90%;
+      display: flex ;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+  
+    #eventos .Left .Left-contentText{
+        width: 85%;
+    }
+   
+    #eventos .bgColorSlide .right{
+  
+      width: 65%;
+       margin: 2px 25px 0 15px;
+       /* border: 5px solid #ffffff; */
+       transform: scale(1.15);
+       box-shadow: -2px 3px 6px rgba(0, 0, 0, 0.167);
+     }
+  
+     #eventos .bgColorSlide .right img{
+      width: 100%;
+      object-fit: cover;
+    }
+
+    #eventos .bgColorSlideSwipper{
+      position: relative;
+      background-color: #CFCFCF; 
+      border-radius: 25px;
+      margin: 0;
+      padding: 0;
+      right: -50px;
+      box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+    }
+    
+    #eventos .bgColorSwipper{
+      margin-top: 75px;
+      background-color: #41504D;
+      position: relative;
+      border-radius: 25px;
+      padding-bottom: 50px;
+      right: 50px;
+      margin-left: 50px;
+    }
+    .swiper{
+      width: 95%;
+      padding-bottom: 50px;
+    } 
+    
+  }
+
+  
+  @media screen and (min-width: 1280px) { 
+
+    #eventos .bgColorSlide .right{
+  
+      width: 50%;
+  }
+  #eventos .bgColor{
+    background-color: #2A2B2A;
+    position: relative;
+    border-radius: 25px;
+    padding-bottom: 100px;
+    left: 50px;
+    margin-right: 50px;
+  }
+
+  #eventos .bgColorSlide{
+   position: relative;
+    background-color: #CFCFCF; 
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    left: -75px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+  }
+    #eventos .bgColorSlide{
+     position: relative;
+      background-color: #CFCFCF; 
+      border-radius: 25px;
+      margin: 0;
+      padding: 0;
+      left: -75px;
+      box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.299);
+      margin-left: 25px;
+    }
+
+
+
+}
+ 

@@ -1,0 +1,18 @@
+
+.react-parallax img{
+    object-fit: cover;
+    top:0
+}
+@media (min-width:1280) {
+
+    .react-parallax {
+        height: 500px;
+    }
+}
+@media (min-width:1280) {
+
+    .react-parallax {
+        height: 500px;
+    }
+}
+

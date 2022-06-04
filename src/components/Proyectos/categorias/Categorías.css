@@ -1,0 +1,245 @@
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    grid-gap: 5px; 
+    
+}
+.gallery___img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item{
+    position: relative;
+    box-shadow: 1px 1px 1px #888888; 
+    z-index: 0;
+
+}
+.gallery__item img{
+
+    cursor: pointer; 
+    transition: all 250ms ease-out;
+   
+    overflow: hidden;
+}
+
+.gallery__item:hover img{
+    transform: scale(1.025);
+    z-index: 20;
+}
+
+
+.gallery___title{   
+    position: absolute;
+    display: block;       
+}
+.gallery___title-Left{
+    width: 45%;
+    top:24px;
+    right: 16px;
+}
+
+.gallery___title-Center{  
+    position: absolute;
+    top:24px;
+    width: 100%;    
+}
+.gallery___title-Right{
+    top:24px;
+    width: 45%;
+    left: 16px;  
+}
+h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    line-height : 18px;
+    text-align: center;
+}
+.gallery__item .editorial{
+    display: none;
+}
+@media (min-width: 640px){
+    .gallery-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+        grid-gap: 5px; 
+    }
+    .gallery___img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__item:nth-child(2){
+        grid-row-start: span 2;
+        }
+
+    .gallery__item{
+        position: relative;
+        box-shadow: 1px 1px 1px #888888;  
+    }
+    .gallery___title{   
+        position: absolute;
+        display: block;       
+    }
+    .gallery___title-Left{
+        width: 45%;
+        top:24px;
+        right: 16px;
+    }
+
+    .gallery___title-Center{  
+        position: absolute;
+        top:24px;
+        width: 100%;    
+    }
+    .gallery___title-Right{
+        top:24px;
+        width: 45%;
+        left: 16px;  
+    }
+    h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    h4 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        line-height : 18px;
+        text-align: center;
+    }
+    .gallery__item .editorialmobile{
+        display: none;
+    }
+    .gallery__item .editorial{
+        display: block ;
+    }
+}
+@media (min-width: 768px){
+    .gallery-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+        grid-gap: 5px; 
+    }
+    .gallery___img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__item:nth-child(2){
+    grid-row-start: span 2;
+    }
+    .gallery__item{
+        position: relative;
+        box-shadow: 1px 1px 1px #888888;  
+    }
+    .gallery___title{   
+        position: absolute;
+        display: block;       
+    }
+    .gallery___title-Left{
+        width: 45%;
+        top:24px;
+        right: 16px;
+    }
+
+    .gallery___title-Center{  
+        position: absolute;
+        top:24px;
+        width: 100%;    
+    }
+    .gallery___title-Right{
+        top:24px;
+        width: 45%;
+        left: 16px;  
+    }
+    h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    h4 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        line-height : 18px;
+        text-align: center;
+    }
+    .gallery__item .editorialmobile{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1024px) { 
+    .gallery-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+        grid-gap: 5px; 
+    }
+    .gallery___img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__item:nth-child(2){
+    grid-row-start: span 2;
+    }
+    .gallery__item{
+        position: relative;
+        box-shadow: 1px 1px 1px #888888;  
+    }
+    .gallery__item .editorialmobile{
+        display: none;
+    }
+
+    .gallery___title{   
+        position: absolute;
+        display: block;       
+    }
+    .gallery___title-Left{
+        width: 45%;
+        top:24px;
+        right: 16px;
+    }
+
+    .gallery___title-Center{  
+        position: absolute;
+        top:24px;
+        width: 100%;    
+    }
+    .gallery___title-Right{
+        top:24px;
+        width: 45%;
+        left: 16px;  
+    }
+    h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    h4 {
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+        line-height : 18px;
+        text-align: center;
+    }
+}

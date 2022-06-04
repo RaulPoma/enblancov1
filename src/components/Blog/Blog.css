@@ -1,0 +1,79 @@
+.title h2{
+  color: black;
+  font-weight: 500;
+}
+
+.box{
+  background-color: #ecf0f3;
+  box-shadow: 3px 3px 3px #03030329;  
+}
+.box .img{
+  display: flex;
+}
+.box .img img{
+  object-fit: cover;
+}
+.Portfolio {
+  background-color:  #C3BCB6;
+  padding-bottom: 40px;
+
+}
+.BlogContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.modal-blog.modal,
+.modal-blog.overlay {
+  overflow: scroll;
+}
+.modal-blog.modal .modal-content {
+  position: relative;
+  top: 10%;
+  left: 0;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.modal-blog .modal-content .left,
+.modal-blog .modal-content .right {
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+}
+/*----------blog_contact--------*/
+
+.blog_contact .left,
+.blog_contact .right {
+  margin: 0 25px 0 0;
+}
+
+/*----------blog_contact--------*/
+@media (max-width: 768px) {
+  .modal-blog.modal .modal-content {
+    max-width: 90%;
+  }
+  .modal-blog.modal .modal-content {
+    margin-bottom: 20%;
+  }
+  .BlogContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 8px;
+  }
+  .BlogContainer .box{
+    grid-column-start:  span 2;
+  }
+
+  .BlogContainer .box:nth-child(1){
+    grid-column:  1/5;
+  }
+
+
+  
+}
+/*----------blog_contact--------*/
+@media (max-width: 1024px) {
+
+}
